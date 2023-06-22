@@ -48,8 +48,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--text);
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 992px) {
@@ -68,7 +68,6 @@ header{
     }
     /* Header */
     header{
-        border-bottom: 1px solid var(--text);
         padding: 1rem 0;
     }
 
@@ -118,12 +117,40 @@ header{
     .links-menu a:hover{
         color: var(--text);
     }
+    /* Fin MobileMenu */
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .mobile-menu,
+    .open-btn,
+    .nav-content{
+        display: none;
+    }
+    .container{
+        padding: 0 5rem;
+    }
 
+    /* MenuDesktop */
+    .logo-site img{
+        width: 50px;
+    }
+    header{
+        padding: 2rem 0;
+    }
+    .desktop-menu a{
+        color: var(--title);
+        font-size: 1.4rem;
+        padding: 0 2rem;
+        
+    }
+    .desktop-menu a:not(:last-child){
+        border-right: 1px solid var(--title);
+    }
+    .desktop-menu a:hover{
+        color: var(--text);
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
