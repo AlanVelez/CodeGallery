@@ -1,7 +1,48 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Variables */
+:root{
+    --bg: #1e1e1e;
+    --text: #a1a1aa;
+    --title: #f4f4f5;
+}
+
+/* General styles */
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
+    /* change a default 16px font size to 10px */
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+body{
+    background-color: var(--bg);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: var(--text);
+}
+
+h1,h2,h3,h4{color: var(--title);}
+
+/* Mobile Title */
+h1{font-size: 2.8rem;}
+h2{font-size: 2.4rem;}
+h3{font-size: 2rem;}
+h4{font-size: 1.6rem;}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.container{
+    padding: 0 2rem;
 }
