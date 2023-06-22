@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512.0px"
+   height="512.0px"
+   viewBox="0 0 512.0 512.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="logoAlan.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview128"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.71090067"
+     inkscape:cx="397.38322"
+     inkscape:cy="224.36327"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid134" />
+  </sodipodi:namedview>
+  <defs
+     id="defs123" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g198"
+       transform="matrix(2.2963578,0,0,2.5488711,-424.38098,-408.85336)"
+       style="fill:#ffffff">
+      <g
+         id="g17"
+         transform="matrix(1.3333333,0,0,-1.3333333,328.12106,279.29455)"
+         style="fill:#ffffff">
+        <path
+           d="M 0,0 -5.899,13.839 -0.188,27.052 5.711,13.213 Z M 19.475,45.087 13.514,31.298 7.564,45.087 H -6.863 l -6.225,-14.378 -6.125,14.378 h -15.78 l 14.04,-32.55 7.251,-16.783 5.949,-13.789 H 6.675 l 6.224,14.378 7.866,18.172 13.225,30.572 z"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path19" />
+      </g>
+      <g
+         id="g21"
+         transform="matrix(1.3333333,0,0,-1.3333333,265.58012,243.22495)"
+         style="fill:#ffffff">
+        <path
+           d="m 0,0 5.899,-13.839 -5.711,-13.213 -5.899,13.839 z m -19.475,-45.087 5.961,13.789 5.95,-13.789 H 6.863 l 6.225,14.378 6.124,-14.378 h 15.781 l -14.04,32.55 -7.251,16.783 -5.95,13.789 H -6.675 L -12.9,3.657 -20.765,-14.516 -33.991,-45.087 Z"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path23" />
+      </g>
+      <g
+         id="g25"
+         transform="matrix(1.3333333,0,0,-1.3333333,206.93679,342.27375)"
+         style="fill:#ffffff">
+        <path
+           d="M 0,0 V 121.51 L 134.84,121.5 134.871,0 Z M 145.791,131.36 -10.95,131.38 V -9.859 h 156.77 z"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path27" />
+      </g>
+    </g>
+  </g>
+</svg>
