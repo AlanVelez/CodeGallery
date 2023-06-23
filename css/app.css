@@ -24,6 +24,8 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
     color: var(--text);
+    background-image: url('../svg/noise.svg');
+    background-blend-mode: overlay;
 }
 
 h1,h2,h3,h4{color: var(--title);}
@@ -36,6 +38,7 @@ h4{font-size: 1.6rem;}
 
 a{
     text-decoration: none;
+    color: var(--text);
 }
 
 img{
@@ -75,11 +78,16 @@ header{
 .social-media-main ion-icon:hover{
     color: var(--title);
 }
+/* Degradado background */
+.container-bg{
+    background: radial-gradient(at center top, rgba(124, 14, 233, 0.50) 0%, rgba(30, 30, 30, 0.00) 75%);
+}
 
 /* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 992px) {
     .container{
         padding: 0 3rem;
+        min-height: 60vh;
     }
     .desktop-menu{
         display: none;
@@ -218,7 +226,7 @@ header{
         display: flex;
         justify-content: center;
     }
-    
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
