@@ -52,13 +52,31 @@ header{
 }
 
 /* Image Profile */
-
 .profile-image img{
     border-radius: 50%;
     border: 2px solid var(--title);
 }
+/* Info Profile */
+.profile-info p:nth-child(1){
+    font-weight: bold;
+    color: var(--title);
+}
+.info-main p{
+    line-height: 2;
+    font-size: 1.6rem;
+    text-align: justify;
+}
 
-/* Extra small devices (phones, 600px and down) */
+/* icons social media */
+.social-media-main ion-icon{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+.social-media-main ion-icon:hover{
+    color: var(--title);
+}
+
+/* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 992px) {
     .container{
         padding: 0 3rem;
@@ -139,22 +157,7 @@ header{
         align-items: center;
         gap: 2rem;
     }
-    .profile-info p:nth-child(1){
-        font-weight: bold;
-        color: var(--title);
-    }
-    .info-main p{
-        line-height: 2;
-    }
-    .social-media-main ion-icon{
-        font-size: 2.5rem;
-        margin-right: 1rem;
-    }
-    .social-media-main ion-icon:hover{
-        color: var(--title);
-    }
-
-
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -194,6 +197,28 @@ header{
     .desktop-menu a:hover{
         color: var(--text);
     }
+    /* main section */
+    main{
+        width: 50%;
+        margin: auto;
+        padding: 5rem;
+    }
+    main .profile .profile-image img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .profile{
+        text-align: center;
+    }
+    .info-main,
+    .info-main p{
+        text-align: center;
+    }
+    .social-media-main{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
